@@ -1,6 +1,6 @@
 import random
 import string
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
 def generate_id() -> str:
     return "".join(random.choices(string.digits,k=8))
@@ -9,7 +9,7 @@ def generate_id() -> str:
 class Student:
     name: str
     age: int
-    student_id: str
+    student_id: str=field(default_factory=generate_id)
 
     def greet(self,students_name: object) -> None:
         """Greet another student's name."""

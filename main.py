@@ -1,7 +1,8 @@
-import student
+import student as sdt
 
 def main() -> None:
-    pass
+    ali = sdt.Student("Ali",21,"0136841")
+    print(ali)
 
 if __name__ == '__main__':
-    pass
+    main()

@@ -1,2 +1,2 @@
-# git-remote-tutorial-3
-Mengulang kembali materi Git remote yang ke-3.
+<h1>git-remote-tutorial-3</h1>
+<p>Mengulang kembali materi Git remote yang ke-3, referensi belajar: <a href="https://www.youtube.com/watch?v=ppi_M-FX1CY&list=PLFIM0718LjIVknj6sgsSceMqlq242-jNf&index=8">klik disini</a>.</p>

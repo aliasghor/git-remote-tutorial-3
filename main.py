@@ -1,4 +1,4 @@
-import student
+import student as sdt
 
 def main() -> None:
     pass
